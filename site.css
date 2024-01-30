@@ -1,0 +1,29 @@
+container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+background-color: beige;
+}
+
+h2 {
+background-color: beige;
+}
+
+h3 {
+background-color: beige;
+}
+
+h4 {
+background-color: beige;
+}
+
+a:hover{
+background-color: lightblue;
+}
+
+a:visited{
+background-color: rgb(117, 245, 168);
+}
