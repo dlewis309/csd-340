@@ -6,24 +6,49 @@ container {
 
 h1 {
 background-color: beige;
+color:crimson;
 }
 
 h2 {
 background-color: beige;
+color:crimson;
 }
 
 h3 {
 background-color: beige;
+color:crimson;
 }
 
 h4 {
 background-color: beige;
+color:crimson;
+}
+
+a {
+color:crimson;
 }
 
 a:hover{
 background-color: lightblue;
+color:crimson;
 }
 
 a:visited{
 background-color: rgb(117, 245, 168);
+}
+
+p {
+color:crimson;
+}
+
+li:hover{
+background-color: lightblue;
+}
+
+ul {
+color:crimson;
+}
+
+li {
+color:crimson;
 }
