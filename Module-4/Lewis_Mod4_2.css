@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    color: red;
+    border: red;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    border: 5px solid red;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+
+#image-gallery {
+margin-top: 10%;
+object-fit: fill;
+}
+
+h1 {
+text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+figure {
+text-align: center;
+font-style: italic;
+font-size: .75em;
+}
+
+img {
+width: 300px;
+border-color: red;
+border-radius: 0%;
+border-width: 10%;
+}
+
+li {
+float: right;
+margin-bottom: 60%;
+font-size: larger;
+}
+
+#grid-item {
+border-style: solid red;
+}
