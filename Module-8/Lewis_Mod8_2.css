@@ -1,36 +1,7 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-items: center;
-    border: 5px solid #0b0b0b;
-    background-color: #7cf227;
-    justify-content: space-evenly;
-    justify-items: center;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    height: 600px;
-  }
-
-figure {
-    text-align: center;
-    font-style: italic;
-    font-size: .75em;
-    }
-
-h1 {
-    font-weight: 1000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-img {
-    object-fit: contain;
-    height: 400px;
-}
-
+/* Header Element */
 header {
-    background-color: #7cf227;
-    color: rgb(16, 15, 15);
+    background-color: #333;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -44,7 +15,6 @@ h1 {
     overflow: hidden;
     background-color: #333;
     border-bottom: solid 15px #222;
-    text-align: center;
 }
 
 #navbar a {
@@ -118,3 +88,45 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+#movies {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#movies th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+#movies td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+footer p {
+    margin: 0;
+    float: left;
+  }
+
+.container {
+  margin: 2% 5% 100px;
+}
+
+#copyright-year {
+    font-weight: bold;
+  }
