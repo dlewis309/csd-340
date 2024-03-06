@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Lewis_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+
+    function replaceText1() {
+        var span1 = document.getElementById("span1");
+        span1.textContent = "Harry";
+    }
+
+    function replaceText2() {
+        var span2 = document.getElementById("span2");
+        span2.textContent = "Letters";
+    }
+
+    function replaceText3() {
+        var span3 = document.getElementById("span3");
+        span3.textContent = "Dursleys";
+    }
+
+    function replaceText4() {
+        var span4 = document.getElementById("span4");
+        span4.textContent = "wizards";
+    }
+</script>
+</head>
+<body>
+    <body>
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <p>
+            Here, among the ordinary homes and winding lanes, lived a young boy named <span id="span1">_______</span> Potter.
+        </p>
+        <p>
+            Harry's life took an unexpected turn on his eleventh birthday when a series of mysterious <span id="span2">_______</span> arrived, inviting him to attend Hogwarts School of Witchcraft and Wizardry.</p>
+        <p>
+            With each letter intercepted, the <span id="span3">_______</span> grew increasingly paranoid, but Harry's curiosity was piqued.
+        </p>
+        <p>
+            Soon, he learned of his true heritage: his parents were renowned  <span id="span4">_______</span> who perished at the hands of the dark wizard Voldemort.
+        </p>
+    
+        <button onclick="replaceText1()">Replace</button><br>
+        <button onclick="replaceText2()">Replace</button><br>
+        <button onclick="replaceText3()">Replace</button><br>
+        <button onclick="replaceText4()">Replace</button><br>
+    </body>
+    </html>
+    
+</body>
+</html>
