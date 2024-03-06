@@ -1,0 +1,73 @@
+<!-- Darnell Lewis : Assignment module 12.2 -->
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        // Array of top ten books
+        var topTenBooks = [
+            "Where the sidewalk ends",
+            "The giving tree",
+            "Harry Potter",
+            "Lord of the rings",
+            "There is a snake in the toilet",
+            "Ralph S Mouse",
+            "Freak the Mighty",
+            "The Lord of the Rings",
+            "Ramona and beezus",
+            "The 10x rule"
+        ];
+
+        // Function to display array elements in ascending order
+        function displayTopToBottom() {
+            var displayArea = document.getElementById("displayArea");
+            displayArea.innerHTML = ""; // Clear previous content
+
+            for (var i = 0; i < topTenBooks.length; i++) {
+                var listItem = document.createElement("li");
+                listItem.textContent = topTenBooks[i];
+                displayArea.appendChild(listItem);
+            }
+        }
+
+        // Function to display array elements in descending order
+        function displayBottomToTop() {
+            var displayArea = document.getElementById("displayArea");
+            displayArea.innerHTML = ""; // Clear previous content
+
+            for (var i = topTenBooks.length - 1; i >= 0; i--) {
+                var listItem = document.createElement("li");
+                listItem.textContent = topTenBooks[i];
+                displayArea.appendChild(listItem);
+            }
+        }
+    </script>
+<link rel="stylesheet" href="Lewis_Mod3_3.css">
+</head>
+
+<body>
+    <div id=”container”>
+        <h1>Assignment 12.2: Build a Web Page Exercise - Part 3</h1>
+        <div id="Left">
+            <h3>Top 10 Favorite Books</h3>
+            <button onclick="displayTopToBottom()">Top to Bottom</button>
+            <button onclick="displayBottomToTop()">Bottom to Top</button>
+            <ul id="displayArea"></ul>
+            </ol>
+            </div>
+
+
+    <div id="Right"> 
+            <h3>5 Things I’ve Learned Since the Course Started</h3>
+            <ul>
+            <li>HTML is as hard as it looks</li>
+            <li>Css is essentially an accessory to HTML</li>
+            <li>It is very important to under stand color scheme</li>
+            <li>There are a million different kinds of font</li>
+            <li>Page structure and format is more important than its contents</li>
+            </ul>
+    </div>
+
+    <div id ="last">
+        </div>
+    </div>
