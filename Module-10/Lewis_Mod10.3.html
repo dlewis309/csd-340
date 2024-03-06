@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        function changeDisplay() {
+            var message = document.getElementById("message");
+            message.textContent = "It's Evee!";
+            message.style.color = "blue";
+        }
+    </script>
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <p>Who's that Pokemon?:</p>
+    <img src="Images/Evee.jpg" alt="Images/Mew.jpg" onclick="changeDisplay()">
+    <p id="message"></p>
+</body>
+</html>
